@@ -53,3 +53,11 @@ function sortearAmigo()
 
     
 }
+
+function cleanResult() {
+    const result = document.getElementById("resultado")
+    if (result) {
+        result.innerHTML = ""
+    }
+
+}
